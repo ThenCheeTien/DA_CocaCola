@@ -16,7 +16,6 @@ for x in h.headers:
     print("\t ", x, ":", h.headers[x])
 print("**********")
 
-# Display Useragent Mobile
 headers = {
     'User-Agent' :'Mobile'
 }

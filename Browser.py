@@ -1,6 +1,6 @@
 import requests
 
-url = 'https://www.logitechg.com/en-sg/products/gaming-audio.html'
+url = 'https://www.aftershockpc.com/welcome/products/desktops'
 
 r = requests.get(url)
 

@@ -1,3 +1,4 @@
+#Task 5
 import requests
 
 url = 'https://www.logitechg.com/en-sg/products/gaming-audio.html'
@@ -23,7 +24,7 @@ headers = {
 url2 = 'http://httpbin.org/headers'
 rh = requests.get(url2, headers=headers)
 print(rh.text)
-
+#Task 6
 import scrapy
 
 class AudioSpider(scrapy.Spider):
@@ -48,7 +49,7 @@ class AudioSpider(scrapy.Spider):
                 response.urljoin(next_page),
                 callback=self.parse
             )
-# Importing appropriate libraries
+
 import unittest
 
 # Task 8

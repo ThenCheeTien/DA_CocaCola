@@ -1,4 +1,4 @@
-# Scrapy settings for Group10 project
+# Scrapy settings for DA_Group10 project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Group10'
+BOT_NAME = 'DA_Group10'
 
-SPIDER_MODULES = ['Group10.spiders']
-NEWSPIDER_MODULE = 'Group10.spiders'
+SPIDER_MODULES = ['DA_Group10.spiders']
+NEWSPIDER_MODULE = 'DA_Group10.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'Group10 (+http://www.yourdomain.com)'
+#USER_AGENT = 'DA_Group10 (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'Group10.middlewares.Group10SpiderMiddleware': 543,
+#    'DA_Group10.middlewares.Group10SpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'Group10.middlewares.Group10DownloaderMiddleware': 543,
+#    'DA_Group10.middlewares.Group10DownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'Group10.pipelines.Group10Pipeline': 300,
+#    'DA_Group10.pipelines.Group10Pipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
